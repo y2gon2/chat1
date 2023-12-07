@@ -1,0 +1,9 @@
+<div class="flex mt-40">
+  <div class="mx-auto">
+    <.form for={@form} phx-submit="goto_topic">
+      <.input type="text" field={@form[:topic]} placeholder="Enter your topic name.."/>
+      <br/>
+      <.button type="submit">Join Topic</.button>
+    </.form>
+  </div>
+</div>

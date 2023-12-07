@@ -1,0 +1,10 @@
+<%= @number%>
+<br/>
+<.button phx-click="simple_add">Simple Add</.button>
+<br/>
+<.test/>
+<br/>
+<.simple_form for={@form111} phx-submit="adding_more">
+  <.input field={@form111[:add_amount]} value="10" />
+  <.button>Add Amount</.button>
+</.simple_form>
